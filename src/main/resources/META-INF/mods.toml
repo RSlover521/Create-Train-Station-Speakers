@@ -10,3 +10,24 @@ authors="RSlover521, PlankPower"
 description='''
 Adds station speakers that can announce arriving trains with TTS.
 '''
+
+[[dependencies.create_train_station_speakers]]
+modId="create"
+mandatory=true
+versionRange="[6.0.8,6.1.0)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.create_train_station_speakers]]
+modId="railways"
+mandatory=true
+versionRange="[1.7.2,2.0.0)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.create_train_station_speakers]]
+modId="createrailwaysnavigator"
+mandatory=true
+versionRange="[0.8.5,1.0.0)"
+ordering="NONE"
+side="BOTH"
