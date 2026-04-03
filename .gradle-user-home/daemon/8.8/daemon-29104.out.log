@@ -1,0 +1,492 @@
+2026-04-03T13:35:42.767-0500 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [--add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.invoke=ALL-UNNAMED, --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, -Xmx3G, -Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant]
+2026-04-03T13:35:42.890-0500 [DEBUG] [org.gradle.internal.nativeintegration.services.NativeServices] Native-platform posix files integration is not available. Continuing with fallback.
+2026-04-03T13:35:42.901-0500 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=34f4ca47-46d2-4eba-8413-aa60cf736ede,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,daemonRegistryDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\daemon,pid=29104,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx3G,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2026-04-03T13:35:42.975-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Software Loopback Interface 1
+2026-04-03T13:35:42.978-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2026-04-03T13:35:42.979-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2026-04-03T13:35:42.979-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1
+2026-04-03T13:35:42.980-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft 6to4 Adapter
+2026-04-03T13:35:42.983-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:42.984-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer(R) Wi-Fi 6 AX1650x 160MHz Wireless Network Adapter (200NGW)
+2026-04-03T13:35:42.986-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:42.987-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /192.168.1.131
+2026-04-03T13:35:42.987-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /2600:1700:c00:3120:0:0:0:41
+2026-04-03T13:35:42.987-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /2600:1700:c00:3120:3474:9a8:1dc9:528c
+2026-04-03T13:35:42.987-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /2600:1700:c00:3120:68a3:eab7:8510:f4c7
+2026-04-03T13:35:42.988-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:6f01:82b2:3a70:3a17%wlan0
+2026-04-03T13:35:42.988-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IKEv2)
+2026-04-03T13:35:42.991-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:42.991-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPTP)
+2026-04-03T13:35:42.994-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:42.994-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft IP-HTTPS Platform Adapter
+2026-04-03T13:35:42.997-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:42.997-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Kernel Debug Network Adapter
+2026-04-03T13:35:43.000-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.000-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Famatech Radmin VPN Ethernet Adapter
+2026-04-03T13:35:43.003-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.003-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /26.227.120.94
+2026-04-03T13:35:43.003-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fdfd:0:0:0:0:0:1ae3:785e
+2026-04-03T13:35:43.003-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:f421:f5c4:ecf6:378%eth1
+2026-04-03T13:35:43.003-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter
+2026-04-03T13:35:43.006-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.006-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:235f:620d:6c2b:f05d%wlan1
+2026-04-03T13:35:43.007-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)
+2026-04-03T13:35:43.009-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.010-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Bluetooth Device (Personal Area Network)
+2026-04-03T13:35:43.012-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.013-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:7498:bde4:a6d6:b801%eth3
+2026-04-03T13:35:43.013-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Teredo Tunneling Adapter
+2026-04-03T13:35:43.015-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /2001:0:14c9:cc02:300c:988:2eb3:49c0
+2026-04-03T13:35:43.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:300c:988:2eb3:49c0%net4
+2026-04-03T13:35:43.016-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)
+2026-04-03T13:35:43.019-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.019-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (PPPOE)
+2026-04-03T13:35:43.022-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.022-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (L2TP)
+2026-04-03T13:35:43.025-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.025-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek Gaming 2.5GbE Family Controller
+2026-04-03T13:35:43.027-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.028-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:eb7a:3e4c:5bd3:c948%eth5
+2026-04-03T13:35:43.028-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2
+2026-04-03T13:35:43.031-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.031-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:926:266d:d9b6:9b73%wlan2
+2026-04-03T13:35:43.031-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)
+2026-04-03T13:35:43.034-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.034-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (SSTP)
+2026-04-03T13:35:43.036-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.036-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.039-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.039-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Famatech Radmin VPN Ethernet Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.041-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.042-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Famatech Radmin VPN Ethernet Adapter-QoS Packet Scheduler-0000
+2026-04-03T13:35:43.044-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.044-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek Gaming 2.5GbE Family Controller-WFP Native MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.048-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.049-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek Gaming 2.5GbE Family Controller-QoS Packet Scheduler-0000
+2026-04-03T13:35:43.051-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.051-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Realtek Gaming 2.5GbE Family Controller-WFP 802.3 MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.054-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.054-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer(R) Wi-Fi 6 AX1650x 160MHz Wireless Network Adapter (200NGW)-WFP Native MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.057-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.057-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer(R) Wi-Fi 6 AX1650x 160MHz Wireless Network Adapter (200NGW)-Virtual WiFi Filter Driver-0000
+2026-04-03T13:35:43.060-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.060-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer(R) Wi-Fi 6 AX1650x 160MHz Wireless Network Adapter (200NGW)-Native WiFi Filter Driver-0000
+2026-04-03T13:35:43.063-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.063-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer(R) Wi-Fi 6 AX1650x 160MHz Wireless Network Adapter (200NGW)-QoS Packet Scheduler-0000
+2026-04-03T13:35:43.067-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.067-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Killer(R) Wi-Fi 6 AX1650x 160MHz Wireless Network Adapter (200NGW)-WFP 802.3 MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.070-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.070-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Famatech Radmin VPN Ethernet Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.073-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.073-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000
+2026-04-03T13:35:43.076-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.076-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000
+2026-04-03T13:35:43.081-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.081-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.084-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.084-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP Native MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.087-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.087-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-Native WiFi Filter Driver-0000
+2026-04-03T13:35:43.090-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.090-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-QoS Packet Scheduler-0000
+2026-04-03T13:35:43.093-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.093-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface Microsoft Wi-Fi Direct Virtual Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.096-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.097-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.100-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.100-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IP)-QoS Packet Scheduler-0000
+2026-04-03T13:35:43.103-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.103-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.106-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.106-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2026-04-03T13:35:43.109-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.109-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2026-04-03T13:35:43.112-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.112-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2026-04-03T13:35:43.115-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2026-04-03T13:35:43.122-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [c0520940-2efc-4551-9823-d5589fbef1a1 port:57323, addresses:[localhost/127.0.0.1]].
+2026-04-03T13:35:43.126-0500 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Fri Apr 03 13:35:43 CDT 2026, with address: [c0520940-2efc-4551-9823-d5589fbef1a1 port:57323, addresses:[localhost/127.0.0.1]]
+2026-04-03T13:35:43.127-0500 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [c0520940-2efc-4551-9823-d5589fbef1a1 port:57323, addresses:[localhost/127.0.0.1]]
+2026-04-03T13:35:43.127-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=34f4ca47-46d2-4eba-8413-aa60cf736ede,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,daemonRegistryDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\daemon,pid=29104,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx3G,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2026-04-03T13:35:43.128-0500 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [c0520940-2efc-4551-9823-d5589fbef1a1 port:57323, addresses:[localhost/127.0.0.1]], context: DefaultDaemonContext[uid=34f4ca47-46d2-4eba-8413-aa60cf736ede,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,daemonRegistryDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\daemon,pid=29104,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx3G,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+2026-04-03T13:35:43.140-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-04-03T13:35:43.145-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-04-03T13:35:43.153-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-04-03T13:35:43.153-0500 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+2026-04-03T13:35:43.155-0500 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+2026-04-03T13:35:43.160-0500 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+2026-04-03T13:35:43.160-0500 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+2026-04-03T13:35:43.161-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-04-03T13:35:43.315-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:57324 to /127.0.0.1:57323.
+2026-04-03T13:35:43.383-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: received class org.gradle.launcher.daemon.protocol.Build
+2026-04-03T13:35:43.384-0500 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 30: Received non-IO message from client: Build{id=2b990cc5-97af-479f-96e2-59e5159899ef, currentDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers}
+2026-04-03T13:35:43.384-0500 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=2b990cc5-97af-479f-96e2-59e5159899ef, currentDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers}.
+2026-04-03T13:35:43.384-0500 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=2b990cc5-97af-479f-96e2-59e5159899ef, currentDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers} with connection: socket connection from /127.0.0.1:57323 to /127.0.0.1:57324.
+2026-04-03T13:35:43.386-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=2b990cc5-97af-479f-96e2-59e5159899ef, currentDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:57323 to /127.0.0.1:57324] after 0.0 minutes of idle
+2026-04-03T13:35:43.386-0500 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [c0520940-2efc-4551-9823-d5589fbef1a1 port:57323, addresses:[localhost/127.0.0.1]]
+2026-04-03T13:35:43.386-0500 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [c0520940-2efc-4551-9823-d5589fbef1a1 port:57323, addresses:[localhost/127.0.0.1]]
+2026-04-03T13:35:43.388-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-04-03T13:35:43.388-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-04-03T13:35:43.389-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-04-03T13:35:43.389-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2026-04-03T13:35:43.389-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-04-03T13:35:43.390-0500 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=2b990cc5-97af-479f-96e2-59e5159899ef, currentDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers}. Dispatching build started information...
+2026-04-03T13:35:43.391-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 32: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@43a2fe96
+2026-04-03T13:35:43.392-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [USERDOMAIN_ROAMINGPROFILE, PROCESSOR_LEVEL, ALLUSERSPROFILE, CODEX_SHELL, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, DIRNAME, USERNAME, ProgramFiles(x86), CHROME_CRASHPAD_PIPE_NAME, CODEX_INTERNAL_ORIGINATOR_OVERRIDE, APP_HOME, CODEX_SANDBOX_NETWORK_DISABLED, DEFAULT_JVM_OPTS, PATHEXT, SHELL, DriverData, OneDriveConsumer, ProgramData, GIT_LFS_PATH, ProgramW6432, HOMEPATH, PROCESSOR_IDENTIFIER, ProgramFiles, PUBLIC, ZSH_TMUX_AUTOSTARTED, windir, LOCALAPPDATA, USERDOMAIN, LOGONSERVER, JAVA_HOME, PROMPT, RUST_LOG, OneDrive, APPDATA, GRADLE_USER_HOME, VBOX_HWVIRTEX_IGNORE_SVM_IN_USE, JAVA_EXE, CODEX_THREAD_ID, CommonProgramFiles, Path, DISABLE_AUTO_UPDATE, OS, COMPUTERNAME, PROCESSOR_REVISION, CLASSPATH, CommonProgramW6432, ComSpec, APP_BASE_NAME, ZSH_TMUX_AUTOSTART, =D:, SystemRoot, TEMP, HOMEDRIVE, USERPROFILE, TMP, CommonProgramFiles(x86), NUMBER_OF_PROCESSORS]
+2026-04-03T13:35:43.394-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: received class org.gradle.launcher.daemon.protocol.CloseInput
+2026-04-03T13:35:43.394-0500 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 30: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@38c5ee05
+2026-04-03T13:35:43.396-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2026-04-03T13:35:43.396-0500 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 29104). The daemon log file: D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\daemon\8.8\daemon-29104.out.log
+2026-04-03T13:35:43.398-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon] Requesting daemon stop after processing Build{id=2b990cc5-97af-479f-96e2-59e5159899ef, currentDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers}
+2026-04-03T13:35:43.398-0500 [DEBUG] [org.gradle.launcher.daemon.server.clientinput.ClientInputForwarder] Closing this process' stdin at end of input.
+2026-04-03T13:35:43.398-0500 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build 
+2026-04-03T13:35:43.398-0500 [DEBUG] [org.gradle.launcher.daemon.server.clientinput.ClientInputForwarder] This process will no longer process any forwarded input.
+2026-04-03T13:35:43.399-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop as soon as idle requested. The daemon is busy: true
+2026-04-03T13:35:43.399-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon stop has been requested. Sleeping until state changes.
+2026-04-03T13:35:43.400-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2026-04-03T13:35:43.400-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=34f4ca47-46d2-4eba-8413-aa60cf736ede,javaHome=C:\Program Files\Java\jdk-17,javaVersion=17,daemonRegistryDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\daemon,pid=29104,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx3G,-Dfile.encoding=windows-1252,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Java: 17.0.12, JVM: 17.0.12+8-LTS-286 (Oracle Corporation), Arch: amd64
+
+------------------------------------------------------------
+Root project 'Create-Train-Station-Speakers'
+------------------------------------------------------------
+
+runtimeClasspath - Runtime classpath of source set 'main'.
++--- com.simibubi.create:create-1.20.1:{strictly 6.0.8-289_mapped_official_1.20.1} -> 6.0.8-289_mapped_official_1.20.1
++--- net.createmod.ponder:Ponder-Forge-1.20.1:{strictly 1.0.91_mapped_official_1.20.1} -> 1.0.91_mapped_official_1.20.1
++--- com.tterrag.registrate:Registrate:{strictly MC1.20-1.3.3_mapped_official_1.20.1} -> MC1.20-1.3.3_mapped_official_1.20.1
++--- io.github.llamalad7:mixinextras-forge:0.4.1
++--- curse.maven:create-steam-n-rails-688231:{strictly 7758640_mapped_official_1.20.1} -> 7758640_mapped_official_1.20.1
++--- curse.maven:create-railways-navigator-935929:{strictly 7227738_mapped_official_1.20.1} -> 7227738_mapped_official_1.20.1
++--- net.minecraftforge:forge:1.20.1-47.4.0_mapped_official_1.20.1
+|    +--- net.minecraft:client:1.20.1
+|    |    +--- com.github.oshi:oshi-core:6.2.2
+|    |    |    +--- net.java.dev.jna:jna:5.12.1
+|    |    |    +--- net.java.dev.jna:jna-platform:5.12.1
+|    |    |    |    \--- net.java.dev.jna:jna:5.12.1
+|    |    |    \--- org.slf4j:slf4j-api:1.7.36 -> 2.0.1
+|    |    +--- com.google.code.gson:gson:2.10
+|    |    +--- com.google.guava:failureaccess:1.0.1
+|    |    +--- com.google.guava:guava:31.1-jre
+|    |    |    +--- com.google.guava:failureaccess:1.0.1
+|    |    |    +--- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+|    |    |    +--- com.google.code.findbugs:jsr305:3.0.2
+|    |    |    +--- org.checkerframework:checker-qual:3.12.0
+|    |    |    +--- com.google.errorprone:error_prone_annotations:2.11.0
+|    |    |    \--- com.google.j2objc:j2objc-annotations:1.3
+|    |    +--- com.ibm.icu:icu4j:71.1
+|    |    +--- com.mojang:authlib:4.0.43
+|    |    +--- com.mojang:blocklist:1.0.10
+|    |    +--- com.mojang:brigadier:1.1.8
+|    |    +--- com.mojang:datafixerupper:6.0.8
+|    |    +--- com.mojang:logging:1.1.1
+|    |    +--- com.mojang:patchy:2.2.10
+|    |    +--- com.mojang:text2speech:1.17.9
+|    |    +--- commons-codec:commons-codec:1.15
+|    |    +--- commons-io:commons-io:2.11.0
+|    |    +--- commons-logging:commons-logging:1.2
+|    |    +--- io.netty:netty-buffer:4.1.82.Final
+|    |    |    \--- io.netty:netty-common:4.1.82.Final
+|    |    +--- io.netty:netty-codec:4.1.82.Final
+|    |    |    +--- io.netty:netty-common:4.1.82.Final
+|    |    |    +--- io.netty:netty-buffer:4.1.82.Final (*)
+|    |    |    \--- io.netty:netty-transport:4.1.82.Final
+|    |    |         +--- io.netty:netty-common:4.1.82.Final
+|    |    |         +--- io.netty:netty-buffer:4.1.82.Final (*)
+|    |    |         \--- io.netty:netty-resolver:4.1.82.Final
+|    |    |              \--- io.netty:netty-common:4.1.82.Final
+|    |    +--- io.netty:netty-common:4.1.82.Final
+|    |    +--- io.netty:netty-handler:4.1.82.Final
+|    |    |    +--- io.netty:netty-common:4.1.82.Final
+|    |    |    +--- io.netty:netty-resolver:4.1.82.Final (*)
+|    |    |    +--- io.netty:netty-buffer:4.1.82.Final (*)
+|    |    |    +--- io.netty:netty-transport:4.1.82.Final (*)
+|    |    |    +--- io.netty:netty-transport-native-unix-common:4.1.82.Final
+|    |    |    |    +--- io.netty:netty-common:4.1.82.Final
+|    |    |    |    +--- io.netty:netty-buffer:4.1.82.Final (*)
+|    |    |    |    \--- io.netty:netty-transport:4.1.82.Final (*)
+|    |    |    \--- io.netty:netty-codec:4.1.82.Final (*)
+|    |    +--- io.netty:netty-resolver:4.1.82.Final (*)
+|    |    +--- io.netty:netty-transport-classes-epoll:4.1.82.Final
+|    |    |    +--- io.netty:netty-common:4.1.82.Final
+|    |    |    +--- io.netty:netty-buffer:4.1.82.Final (*)
+|    |    |    +--- io.netty:netty-transport:4.1.82.Final (*)
+|    |    |    \--- io.netty:netty-transport-native-unix-common:4.1.82.Final (*)
+|    |    +--- io.netty:netty-transport-native-unix-common:4.1.82.Final (*)
+|    |    +--- io.netty:netty-transport:4.1.82.Final (*)
+|    |    +--- it.unimi.dsi:fastutil:8.5.9
+|    |    +--- net.java.dev.jna:jna-platform:5.12.1 (*)
+|    |    +--- net.java.dev.jna:jna:5.12.1
+|    |    +--- net.sf.jopt-simple:jopt-simple:5.0.4
+|    |    +--- org.apache.commons:commons-compress:1.21
+|    |    +--- org.apache.commons:commons-lang3:3.12.0
+|    |    +--- org.apache.httpcomponents:httpclient:4.5.13
+|    |    |    +--- org.apache.httpcomponents:httpcore:4.4.13 -> 4.4.15
+|    |    |    +--- commons-logging:commons-logging:1.2
+|    |    |    \--- commons-codec:commons-codec:1.11 -> 1.15
+|    |    +--- org.apache.httpcomponents:httpcore:4.4.15
+|    |    +--- org.apache.logging.log4j:log4j-api:2.19.0
+|    |    +--- org.apache.logging.log4j:log4j-core:2.19.0
+|    |    |    \--- org.apache.logging.log4j:log4j-api:2.19.0
+|    |    +--- org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0
+|    |    |    +--- org.slf4j:slf4j-api:2.0.0 -> 2.0.1
+|    |    |    \--- org.apache.logging.log4j:log4j-api:2.19.0
+|    |    +--- org.joml:joml:1.10.5
+|    |    +--- org.lwjgl:lwjgl-glfw:3.3.1
+|    |    |    \--- org.lwjgl:lwjgl:3.3.1
+|    |    +--- org.lwjgl:lwjgl-jemalloc:3.3.1
+|    |    |    \--- org.lwjgl:lwjgl:3.3.1
+|    |    +--- org.lwjgl:lwjgl-openal:3.3.1
+|    |    |    \--- org.lwjgl:lwjgl:3.3.1
+|    |    +--- org.lwjgl:lwjgl-opengl:3.3.1
+|    |    |    \--- org.lwjgl:lwjgl:3.3.1
+|    |    +--- org.lwjgl:lwjgl-stb:3.3.1
+|    |    |    \--- org.lwjgl:lwjgl:3.3.1
+|    |    +--- org.lwjgl:lwjgl-tinyfd:3.3.1
+|    |    |    \--- org.lwjgl:lwjgl:3.3.1
+|    |    +--- org.lwjgl:lwjgl:3.3.1
+|    |    +--- org.slf4j:slf4j-api:2.0.1
+|    |    +--- com.google.code.findbugs:jsr305:3.0.2
+|    |    +--- ca.weblite:java-objc-bridge:1.1
+|    |    |    \--- net.java.dev.jna:jna:5.10.0 -> 5.12.1
+|    |    \--- org.jetbrains:annotations:24.0.1
+|    +--- com.google.code.findbugs:jsr305:3.0.2
+|    +--- ca.weblite:java-objc-bridge:1.1 (*)
+|    +--- net.minecraftforge:mergetool:1.1.5
+|    |    +--- org.ow2.asm:asm:9.3 -> 9.7.1
+|    |    +--- org.ow2.asm:asm-tree:9.3 -> 9.7.1
+|    |    |    \--- org.ow2.asm:asm:9.7.1
+|    |    +--- org.ow2.asm:asm-util:9.3 -> 9.7.1
+|    |    |    +--- org.ow2.asm:asm:9.7.1
+|    |    |    +--- org.ow2.asm:asm-tree:9.7.1 (*)
+|    |    |    \--- org.ow2.asm:asm-analysis:9.7.1
+|    |    |         \--- org.ow2.asm:asm-tree:9.7.1 (*)
+|    |    +--- net.sf.jopt-simple:jopt-simple:5.0.4
+|    |    \--- net.minecraftforge:srgutils:0.4.11
+|    +--- org.jetbrains:annotations:24.0.1
+|    +--- net.minecraft:mappings_official:1.20.1
+|    +--- cpw.mods:securejarhandler:2.1.10
+|    |    +--- org.ow2.asm:asm:9.3 -> 9.7.1
+|    |    +--- org.ow2.asm:asm-tree:9.3 -> 9.7.1 (*)
+|    |    \--- org.ow2.asm:asm-commons:9.3 -> 9.7.1
+|    |         +--- org.ow2.asm:asm:9.7.1
+|    |         \--- org.ow2.asm:asm-tree:9.7.1 (*)
+|    +--- org.ow2.asm:asm:9.7.1
+|    +--- org.ow2.asm:asm-commons:9.7.1 (*)
+|    +--- org.ow2.asm:asm-tree:9.7.1 (*)
+|    +--- org.ow2.asm:asm-util:9.7.1 (*)
+|    +--- org.ow2.asm:asm-analysis:9.7.1 (*)
+|    +--- net.minecraftforge:accesstransformers:8.0.4
+|    |    +--- org.antlr:antlr4-runtime:4.9.1
+|    |    +--- net.sf.jopt-simple:jopt-simple:5.0.4
+|    |    +--- org.ow2.asm:asm:9.1 -> 9.7.1
+|    |    +--- org.ow2.asm:asm-commons:9.1 -> 9.7.1 (*)
+|    |    +--- org.ow2.asm:asm-tree:9.1 -> 9.7.1 (*)
+|    |    +--- org.apache.logging.log4j:log4j-api:2.11.+ -> 2.19.0
+|    |    +--- org.apache.logging.log4j:log4j-core:2.11.+ -> 2.19.0 (*)
+|    |    +--- cpw.mods:modlauncher:9.0.4 -> 10.0.9
+|    |    |    +--- cpw.mods:securejarhandler:2.1.2 -> 2.1.10 (*)
+|    |    |    +--- org.apache.logging.log4j:log4j-api:2.17.1 -> 2.19.0
+|    |    |    +--- org.apache.logging.log4j:log4j-core:2.17.1 -> 2.19.0 (*)
+|    |    |    +--- net.sf.jopt-simple:jopt-simple:5.0.4
+|    |    |    +--- org.ow2.asm:asm:9.3 -> 9.7.1
+|    |    |    +--- org.ow2.asm:asm-tree:9.3 -> 9.7.1 (*)
+|    |    |    \--- org.ow2.asm:asm-commons:9.3 -> 9.7.1 (*)
+|    |    \--- org.antlr:antlr4:4.9.1
+|    |         +--- org.antlr:antlr4-runtime:4.9.1
+|    |         +--- org.antlr:antlr-runtime:3.5.2
+|    |         +--- org.antlr:ST4:4.3
+|    |         |    \--- org.antlr:antlr-runtime:3.5.2
+|    |         +--- org.abego.treelayout:org.abego.treelayout.core:1.0.3
+|    |         +--- org.glassfish:javax.json:1.0.4
+|    |         \--- com.ibm.icu:icu4j:61.1 -> 71.1
+|    +--- org.antlr:antlr4-runtime:4.9.1
+|    +--- net.minecraftforge:eventbus:6.0.5
+|    |    +--- net.sf.jopt-simple:jopt-simple:5.0.4
+|    |    +--- org.ow2.asm:asm:9.2 -> 9.7.1
+|    |    +--- org.ow2.asm:asm-commons:9.2 -> 9.7.1 (*)
+|    |    +--- org.ow2.asm:asm-tree:9.2 -> 9.7.1 (*)
+|    |    +--- org.apache.logging.log4j:log4j-api:2.17.1 -> 2.19.0
+|    |    +--- cpw.mods:modlauncher:10.0.+ -> 10.0.9 (*)
+|    |    \--- net.jodah:typetools:0.6.+ -> 0.6.3
+|    +--- net.minecraftforge:forgespi:7.0.1
+|    |    +--- cpw.mods:modlauncher:9.0.7 -> 10.0.9 (*)
+|    |    +--- org.ow2.asm:asm:9.2 -> 9.7.1
+|    |    +--- org.ow2.asm:asm-commons:9.2 -> 9.7.1 (*)
+|    |    +--- org.ow2.asm:asm-tree:9.2 -> 9.7.1 (*)
+|    |    +--- org.apache.logging.log4j:log4j-api:2.17.0 -> 2.19.0
+|    |    +--- org.apache.maven:maven-artifact:3.8.1 -> 3.8.5
+|    |    |    +--- org.codehaus.plexus:plexus-utils:3.3.0
+|    |    |    \--- org.apache.commons:commons-lang3:3.8.1 -> 3.12.0
+|    |    +--- cpw.mods:securejarhandler:0.9.52 -> 2.1.10 (*)
+|    |    \--- net.minecraftforge:mergetool:1.1.5 (*)
+|    +--- net.minecraftforge:coremods:5.2.4
+|    |    +--- org.apache.logging.log4j:log4j-api:2.19.0
+|    |    +--- org.openjdk.nashorn:nashorn-core:15.4
+|    |    |    +--- org.ow2.asm:asm:7.3.1 -> 9.7.1
+|    |    |    +--- org.ow2.asm:asm-commons:7.3.1 -> 9.7.1 (*)
+|    |    |    +--- org.ow2.asm:asm-tree:7.3.1 -> 9.7.1 (*)
+|    |    |    \--- org.ow2.asm:asm-util:7.3.1 -> 9.7.1 (*)
+|    |    +--- org.ow2.asm:asm:9.7.1
+|    |    +--- org.ow2.asm:asm-tree:9.7.1 (*)
+|    |    \--- org.ow2.asm:asm-commons:9.7.1 (*)
+|    +--- cpw.mods:modlauncher:10.0.9 (*)
+|    +--- net.minecraftforge:unsafe:0.2.0
+|    |    +--- org.apache.logging.log4j:log4j-api:2.11.+ -> 2.19.0
+|    |    \--- org.apache.logging.log4j:log4j-core:2.11.+ -> 2.19.0 (*)
+|    +--- com.electronwill.night-config:core:3.6.4
+|    +--- com.electronwill.night-config:toml:3.6.4
+|    |    \--- com.electronwill.night-config:core:3.6.4
+|    +--- org.apache.maven:maven-artifact:3.8.5 (*)
+|    +--- net.jodah:typetools:0.6.3
+|    +--- net.minecrell:terminalconsoleappender:1.2.0
+|    |    +--- org.apache.logging.log4j:log4j-core:2.8.1 -> 2.19.0 (*)
+|    |    \--- org.jline:jline-reader:3.12.1
+|    |         \--- org.jline:jline-terminal:3.12.1
+|    +--- org.jline:jline-reader:3.12.1 (*)
+|    +--- org.jline:jline-terminal:3.12.1
+|    +--- org.spongepowered:mixin:0.8.5
+|    +--- org.openjdk.nashorn:nashorn-core:15.4 (*)
+|    +--- net.minecraftforge:JarJarSelector:0.3.19
+|    |    +--- net.minecraftforge:JarJarMetadata:0.3.19
+|    |    |    +--- org.apache.maven:maven-artifact:3.8.1 -> 3.8.5 (*)
+|    |    |    +--- com.google.code.gson:gson:2.8.5 -> 2.10
+|    |    |    +--- com.google.guava:guava:31.0.1-jre -> 31.1-jre (*)
+|    |    |    +--- com.machinezoo.noexception:noexception:1.7.1
+|    |    |    |    \--- org.slf4j:slf4j-api:1.7.30 -> 2.0.1
+|    |    |    +--- org.slf4j:slf4j-api:1.7.30 -> 2.0.1
+|    |    |    \--- org.slf4j:slf4j-simple:1.7.30
+|    |    |         \--- org.slf4j:slf4j-api:1.7.30 -> 2.0.1
+|    |    +--- org.apache.maven:maven-artifact:3.8.1 -> 3.8.5 (*)
+|    |    +--- com.google.code.gson:gson:2.8.5 -> 2.10
+|    |    +--- com.google.guava:guava:31.0.1-jre -> 31.1-jre (*)
+|    |    +--- com.machinezoo.noexception:noexception:1.7.1 (*)
+|    |    +--- org.slf4j:slf4j-api:1.7.30 -> 2.0.1
+|    |    \--- org.slf4j:slf4j-simple:1.7.30 (*)
+|    +--- net.minecraftforge:JarJarMetadata:0.3.19 (*)
+|    +--- cpw.mods:bootstraplauncher:1.1.2
+|    |    \--- cpw.mods:securejarhandler:2.1.2 -> 2.1.10 (*)
+|    +--- net.minecraftforge:JarJarFileSystems:0.3.19
+|    +--- net.minecraftforge:fmlcore:1.20.1-47.4.0
+|    |    +--- net.minecraftforge:fmlloader:1.20.1-47.4.0
+|    |    |    +--- net.sf.jopt-simple:jopt-simple:5.0.4
+|    |    |    +--- cpw.mods:securejarhandler:2.1.10 (*)
+|    |    |    +--- net.minecraftforge:accesstransformers:8.0.4 (*)
+|    |    |    +--- net.minecrell:terminalconsoleappender:1.2.0 (*)
+|    |    |    +--- org.apache.logging.log4j:log4j-core:2.19.0 (*)
+|    |    |    +--- org.ow2.asm:asm:9.7.1
+|    |    |    +--- org.ow2.asm:asm-tree:9.7.1 (*)
+|    |    |    +--- org.ow2.asm:asm-commons:9.7.1 (*)
+|    |    |    +--- net.minecraftforge:forgespi:7.0.1 (*)
+|    |    |    +--- net.minecraftforge:mergetool:1.1.5 (*)
+|    |    |    +--- org.apache.logging.log4j:log4j-api:2.19.0
+|    |    |    +--- org.slf4j:slf4j-api:1.8.0-beta4 -> 2.0.1
+|    |    |    +--- com.google.guava:guava:31.1-jre (*)
+|    |    |    +--- com.google.code.gson:gson:2.10
+|    |    |    +--- org.apache.maven:maven-artifact:3.8.5 (*)
+|    |    |    +--- org.apache.commons:commons-lang3:3.12.0
+|    |    |    +--- com.electronwill.night-config:core:3.6.4
+|    |    |    +--- com.electronwill.night-config:toml:3.6.4 (*)
+|    |    |    +--- cpw.mods:modlauncher:10.0.9 (*)
+|    |    |    +--- net.minecraftforge:coremods:5.2.4 (*)
+|    |    |    +--- com.mojang:logging:1.1.1
+|    |    |    +--- net.minecraftforge:JarJarSelector:0.3.19 (*)
+|    |    |    \--- net.minecraftforge:JarJarMetadata:0.3.19 (*)
+|    |    +--- commons-io:commons-io:2.11.0
+|    |    \--- net.minecraftforge:eventbus:6.0.5 (*)
+|    +--- net.minecraftforge:fmlloader:1.20.1-47.4.0 (*)
+|    +--- net.minecraftforge:fmlearlydisplay:1.20.1-47.4.0
+|    |    +--- net.minecraftforge:fmlloader:1.20.1-47.4.0 (*)
+|    |    +--- net.minecraftforge:fmlcore:1.20.1-47.4.0 (*)
+|    |    +--- org.lwjgl:lwjgl:3.3.1
+|    |    +--- org.lwjgl:lwjgl-glfw:3.3.1 (*)
+|    |    +--- org.lwjgl:lwjgl-opengl:3.3.1 (*)
+|    |    +--- org.lwjgl:lwjgl-stb:3.3.1 (*)
+|    |    +--- org.lwjgl:lwjgl-tinyfd:3.3.1 (*)
+|    |    +--- org.slf4j:slf4j-api:1.8.0-beta4 -> 2.0.1
+|    |    \--- net.sf.jopt-simple:jopt-simple:5.0.4
+|    +--- net.minecraftforge:javafmllanguage:1.20.1-47.4.0
+|    |    +--- net.minecraftforge:fmlloader:1.20.1-47.4.0 (*)
+|    |    \--- net.minecraftforge:fmlcore:1.20.1-47.4.0 (*)
+|    +--- net.minecraftforge:lowcodelanguage:1.20.1-47.4.0
+|    |    +--- net.minecraftforge:fmlloader:1.20.1-47.4.0 (*)
+|    |    \--- net.minecraftforge:fmlcore:1.20.1-47.4.0 (*)
+|    \--- net.minecraftforge:mclanguage:1.20.1-47.4.0
+|         +--- net.minecraftforge:fmlloader:1.20.1-47.4.0 (*)
+|         \--- net.minecraftforge:fmlcore:1.20.1-47.4.0 (*)
+\--- dev.engine-room.flywheel:flywheel-forge-1.20.1:{strictly 1.0.5_mapped_official_1.20.1} -> 1.0.5_mapped_official_1.20.1
+
+(*) - Indicates repeated occurrences of a transitive dependency subtree. Gradle expands transitive dependency subtrees only once per project; repeat occurrences only display the root of the subtree, followed by this annotation.
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 16s
+1 actionable task: 1 executed
+2026-04-03T13:35:57.449-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2026-04-03T13:35:57.466-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon stop has been requested. Sleeping until state changes.
+2026-04-03T13:35:57.466-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=2b990cc5-97af-479f-96e2-59e5159899ef, currentDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:57323 to /127.0.0.1:57324]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@4f357bef with state StopRequested
+2026-04-03T13:35:57.466-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=2b990cc5-97af-479f-96e2-59e5159899ef, currentDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:57323 to /127.0.0.1:57324]
+2026-04-03T13:35:57.466-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2026-04-03T13:35:57.467-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to command completed and stop requested. The daemon is running a build: false
+2026-04-03T13:35:57.467-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+2026-04-03T13:35:57.467-0500 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2026-04-03T13:35:57.467-0500 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2026-04-03T13:35:57.467-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@4337bd41]
+2026-04-03T13:35:57.467-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [c0520940-2efc-4551-9823-d5589fbef1a1 port:57323, addresses:[localhost/127.0.0.1]]
+2026-04-03T13:35:57.467-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 29: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@4337bd41]
+2026-04-03T13:35:57.467-0500 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [c0520940-2efc-4551-9823-d5589fbef1a1 port:57323, addresses:[localhost/127.0.0.1]]
+2026-04-03T13:35:57.468-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-04-03T13:35:57.469-0500 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=2b990cc5-97af-479f-96e2-59e5159899ef, currentDir=D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers}
+2026-04-03T13:35:57.468-0500 [DEBUG] [org.gradle.launcher.daemon.server.exec.CleanUpVirtualFileSystemAfterBuild] Cleaning virtual file system after build finished
+2026-04-03T13:35:57.469-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-04-03T13:35:57.469-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: received class org.gradle.launcher.daemon.protocol.Finished
+2026-04-03T13:35:57.469-0500 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 30: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@8b51a83
+2026-04-03T13:35:57.469-0500 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@8b51a83
+2026-04-03T13:35:57.469-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 29: stopping connection
+2026-04-03T13:35:57.470-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-04-03T13:35:57.470-0500 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+2026-04-03T13:35:57.470-0500 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2026-04-03T13:35:57.471-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: received null
+2026-04-03T13:35:57.471-0500 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 30: Received end-of-input from client.
+2026-04-03T13:35:57.471-0500 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 29: stopping connection
+2026-04-03T13:35:57.473-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for jars (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\jars-9)
+2026-04-03T13:35:57.473-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on jars (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\jars-9).
+2026-04-03T13:35:57.474-0500 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] jars (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\jars-9) has last been fully cleaned up 0 hours ago
+2026-04-03T13:35:57.474-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file content cache (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\8.8\fileContent)
+2026-04-03T13:35:57.474-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file content cache (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\8.8\fileContent).
+2026-04-03T13:35:57.474-0500 [DEBUG] [org.gradle.internal.watch.vfs.impl.WatchingVirtualFileSystem] Closing VFS, dropping state
+2026-04-03T13:35:57.483-0500 [DEBUG] [org.gradle.internal.watch.registry.impl.DefaultFileWatcherRegistry] Finished listening to file system change events
+2026-04-03T13:35:57.483-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Generated Gradle JARs cache (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\8.8\generated-gradle-jars) was closed 0 times.
+2026-04-03T13:35:57.483-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\modules-2)
+2026-04-03T13:35:57.483-0500 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifact.bin (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\modules-2\metadata-2.106\module-artifact.bin)
+2026-04-03T13:35:57.483-0500 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache resource-at-url.bin (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\modules-2\metadata-2.106\resource-at-url.bin)
+2026-04-03T13:35:57.484-0500 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\modules-2\metadata-2.106\module-metadata.bin)
+2026-04-03T13:35:57.484-0500 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-versions.bin (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\modules-2\metadata-2.106\module-versions.bin)
+2026-04-03T13:35:57.484-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\modules-2).
+2026-04-03T13:35:57.484-0500 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] artifact cache (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\modules-2) has last been fully cleaned up 0 hours ago
+2026-04-03T13:35:57.485-0500 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] groovy-dsl (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\8.8\groovy-dsl) has last been fully cleaned up 0 hours ago
+2026-04-03T13:35:57.485-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache groovy-dsl (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\8.8\groovy-dsl) was closed 0 times.
+2026-04-03T13:35:57.485-0500 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] Artifact transforms cache (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\8.8\transforms) has last been fully cleaned up 0 hours ago
+2026-04-03T13:35:57.485-0500 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Artifact transforms cache (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\8.8\transforms) was closed 0 times.
+2026-04-03T13:35:57.486-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for journal cache (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\journal-1)
+2026-04-03T13:35:57.486-0500 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache file-access.bin (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\journal-1\file-access.bin)
+2026-04-03T13:35:57.486-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on journal cache (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\journal-1).
+2026-04-03T13:35:57.486-0500 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\8.8\fileHashes)
+2026-04-03T13:35:57.487-0500 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\8.8\fileHashes\fileHashes.bin)
+2026-04-03T13:35:57.487-0500 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache resourceHashesCache.bin (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\8.8\fileHashes\resourceHashesCache.bin)
+2026-04-03T13:35:57.487-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches\8.8\fileHashes).
+2026-04-03T13:35:57.488-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Deleting unused version-specific caches in D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches' started
+2026-04-03T13:35:57.489-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Completing Build operation 'Deleting unused version-specific caches in D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches'
+2026-04-03T13:35:57.489-0500 [DEBUG] [org.gradle.internal.operations.DefaultBuildOperationRunner] Build operation 'Deleting unused version-specific caches in D:\Users\wxinc\OneDrive\Desktop\Minecraft-modding-stuff\Create-Train-Station-Speakers\.gradle-user-home\caches' completed
+Daemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+2026-04-03T13:35:57.490-0500 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [c0520940-2efc-4551-9823-d5589fbef1a1 port:57323, addresses:[localhost/127.0.0.1]]
+2026-04-03T13:35:57.491-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-04-03T13:35:57.492-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-04-03T13:35:57.493-0500 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.

@@ -7,6 +7,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.rslover521.createTrainStationSpeakers.content.modclasses.CTSBlockEntityTypes;
+import net.rslover521.createTrainStationSpeakers.content.modclasses.CTSBlocks;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -17,6 +19,7 @@ public class CreateTrainStationSpeakers {
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
+    // Wire all mod registrations and event listeners into Forge during mod startup.
     public CreateTrainStationSpeakers(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
@@ -27,6 +30,7 @@ public class CreateTrainStationSpeakers {
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
+    // Place the speaker block item into a vanilla creative tab for quick testing.
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
             event.accept(CTSBlocks.SPEAKER_BLOCK_ITEM);

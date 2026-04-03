@@ -1,10 +1,11 @@
-package net.rslover521.createTrainStationSpeakers;
+package net.rslover521.createTrainStationSpeakers.content.modclasses;
 
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.rslover521.createTrainStationSpeakers.CreateTrainStationSpeakers;
 import net.rslover521.createTrainStationSpeakers.content.speaker.SpeakerBlockEntity;
 
 public class CTSBlockEntityTypes {
@@ -16,9 +17,11 @@ public class CTSBlockEntityTypes {
                     .of(SpeakerBlockEntity::new, CTSBlocks.SPEAKER.get())
                     .build(null));
 
+    // Utility class only; no instances are needed.
     private CTSBlockEntityTypes() {
     }
 
+    // Register this mod's block entity types on the mod event bus.
     public static void register(IEventBus modEventBus) {
         BLOCK_ENTITY_TYPES.register(modEventBus);
     }
