@@ -4,7 +4,7 @@
   "gui.create_train_station_speakers.station_speaker.title": "Station Speaker Editor",
   "gui.create_train_station_speakers.station_speaker.speaker_name": "Speaker Name",
   "gui.create_train_station_speakers.station_speaker.station_name": "Target Station",
-  "gui.create_train_station_speakers.station_speaker.station_hint": "Enter the CRN or Create station name this station speaker should follow.",
+  "gui.create_train_station_speakers.station_speaker.station_hint": "Enter the Station name this should bind.",
   "gui.create_train_station_speakers.station_speaker.save": "Save",
   "gui.create_train_station_speakers.station_speaker.cancel": "Cancel"
 }

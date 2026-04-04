@@ -2,8 +2,8 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "station_speaker",
-		"particle": "station_speaker"
+		"1": "create_train_station_speakers:block/station_speaker",
+		"particle": "create_train_station_speakers:block/station_speaker"
 	},
 	"elements": [
 		{
