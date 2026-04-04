@@ -1,2 +1,3 @@
-./gradlew build
-./gradlew runClient
+@echo off
+call gradlew build
+call gradlew runClient

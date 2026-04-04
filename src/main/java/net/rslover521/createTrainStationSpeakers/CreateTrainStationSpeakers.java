@@ -9,6 +9,9 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.rslover521.createTrainStationSpeakers.content.modclasses.CTSBlockEntityTypes;
 import net.rslover521.createTrainStationSpeakers.content.modclasses.CTSBlocks;
+import net.rslover521.createTrainStationSpeakers.content.modclasses.CTSCreativeModeTabs;
+import net.rslover521.createTrainStationSpeakers.content.modclasses.CTSMenuTypes;
+import net.rslover521.createTrainStationSpeakers.content.network.CTSPackets;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -25,6 +28,9 @@ public class CreateTrainStationSpeakers {
 
         CTSBlocks.register(modEventBus);
         CTSBlockEntityTypes.register(modEventBus);
+        CTSCreativeModeTabs.register(modEventBus);
+        CTSMenuTypes.register(modEventBus);
+        CTSPackets.register();
 
         modEventBus.addListener(this::addCreative);
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -33,7 +39,7 @@ public class CreateTrainStationSpeakers {
     // Place the speaker block item into a vanilla creative tab for quick testing.
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
-            event.accept(CTSBlocks.SPEAKER_BLOCK_ITEM);
+            event.accept(CTSBlocks.STATION_SPEAKER_BLOCK_ITEM);
         }
     }
 }

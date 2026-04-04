@@ -11,7 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.rslover521.createTrainStationSpeakers.CreateTrainStationSpeakers;
-import net.rslover521.createTrainStationSpeakers.content.speaker.SpeakerBlock;
+import net.rslover521.createTrainStationSpeakers.content.station_speakers.StationSpeakerBlock;
 
 public class CTSBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -19,14 +19,14 @@ public class CTSBlocks {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, CreateTrainStationSpeakers.MODID);
 
-    public static final RegistryObject<SpeakerBlock> SPEAKER = BLOCKS.register("speaker",
-            () -> new SpeakerBlock(BlockBehaviour.Properties.of()
+    public static final RegistryObject<StationSpeakerBlock> STATION_SPEAKER = BLOCKS.register("station_speaker",
+            () -> new StationSpeakerBlock(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_GRAY)
                     .strength(2.0F, 6.0F)
                     .sound(SoundType.WOOD)));
 
-    public static final RegistryObject<Item> SPEAKER_BLOCK_ITEM = ITEMS.register("speaker",
-            () -> new BlockItem(SPEAKER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> STATION_SPEAKER_BLOCK_ITEM = ITEMS.register("station_speaker",
+            () -> new BlockItem(STATION_SPEAKER.get(), new Item.Properties()));
 
     // Utility class only; no instances are needed.
     private CTSBlocks() {

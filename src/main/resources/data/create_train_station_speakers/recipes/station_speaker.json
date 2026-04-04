@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "NJN",
+    "IRI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "J": {
+      "item": "minecraft:jukebox"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "create_train_station_speakers:station_speaker",
+    "count": 1
+  }
+}
