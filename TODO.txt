@@ -1,0 +1,21 @@
+Create: Train Station Speakers
+
+[v0.1 - CORE EXPERIENCE]
+
+- register speaker block
+- create model + texture
+- placeable in world
+
+- play sound on redstone signal
+- add cooldown (prevent spam)
+
+- test in survival
+- release v0.1
+
+-------------------------
+
+[v0.2 - EXPANSION]
+
+- connect GUI to block
+- implement static text announcement
+- allow selecting different sounds
