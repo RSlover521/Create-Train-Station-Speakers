@@ -14,6 +14,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
@@ -26,6 +27,9 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.Shapes;
+import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.rslover521.createTrainStationSpeakers.content.modclasses.CTSBlockEntityTypes;
@@ -34,6 +38,10 @@ import net.rslover521.createTrainStationSpeakers.content.station_speakers.menu.S
 public class StationSpeakerBlock extends Block implements IBE<StationSpeakerBlockEntity> {
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final BooleanProperty POWERED = BlockStateProperties.POWERED;
+    private static final VoxelShape SHAPE_NORTH = makeShape(Direction.NORTH);
+    private static final VoxelShape SHAPE_EAST = makeShape(Direction.EAST);
+    private static final VoxelShape SHAPE_SOUTH = makeShape(Direction.SOUTH);
+    private static final VoxelShape SHAPE_WEST = makeShape(Direction.WEST);
 
     public StationSpeakerBlock(Properties properties) {
         super(properties);
@@ -76,6 +84,17 @@ public class StationSpeakerBlock extends Block implements IBE<StationSpeakerBloc
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         builder.add(FACING, POWERED);
+    }
+
+    // Match the selectable and physical hitbox to the Blockbench model elements.
+    @Override
+    public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
+        return shapeForFacing(state.getValue(FACING));
+    }
+
+    @Override
+    public VoxelShape getCollisionShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
+        return shapeForFacing(state.getValue(FACING));
     }
 
     // Copy a custom item name onto the placed block entity so named speaker items keep their label.
@@ -126,6 +145,43 @@ public class StationSpeakerBlock extends Block implements IBE<StationSpeakerBloc
     private boolean isCreateWrench(ItemStack stack) {
         ResourceLocation itemId = ForgeRegistries.ITEMS.getKey(stack.getItem());
         return itemId != null && itemId.equals(new ResourceLocation("create", "wrench"));
+    }
+
+    private static VoxelShape shapeForFacing(Direction facing) {
+        return switch (facing) {
+            case EAST -> SHAPE_EAST;
+            case SOUTH -> SHAPE_SOUTH;
+            case WEST -> SHAPE_WEST;
+            default -> SHAPE_NORTH;
+        };
+    }
+
+    private static VoxelShape makeShape(Direction facing) {
+        return Shapes.or(
+                rotatedBox(facing, 7, 10, 7, 9, 18, 9),
+                rotatedBox(facing, 5, 10, 7, 7, 12, 9),
+                rotatedBox(facing, 9, 10, 7, 11, 12, 9),
+                rotatedBox(facing, 11, 8, 5, 13, 14, 11),
+                rotatedBox(facing, 13, 8, 11, 15, 16, 13),
+                rotatedBox(facing, 13, 6, 5, 15, 8, 13),
+                rotatedBox(facing, 13, 6, 3, 15, 14, 5),
+                rotatedBox(facing, 13, 14, 3, 15, 16, 11),
+                rotatedBox(facing, 3, 8, 5, 5, 14, 11),
+                rotatedBox(facing, 1, 8, 3, 3, 16, 5),
+                rotatedBox(facing, 1, 14, 5, 3, 16, 13),
+                rotatedBox(facing, 1, 6, 3, 3, 8, 11),
+                rotatedBox(facing, 1, 6, 11, 3, 14, 13)
+        );
+    }
+
+    private static VoxelShape rotatedBox(Direction facing, double minX, double minY, double minZ,
+                                         double maxX, double maxY, double maxZ) {
+        return switch (facing) {
+            case EAST -> box(16 - maxZ, minY, minX, 16 - minZ, maxY, maxX);
+            case SOUTH -> box(16 - maxX, minY, 16 - maxZ, 16 - minX, maxY, 16 - minZ);
+            case WEST -> box(minZ, minY, 16 - maxX, maxZ, maxY, 16 - minX);
+            default -> box(minX, minY, minZ, maxX, maxY, maxZ);
+        };
     }
 
     // Open the speaker editor and send the current speaker values to the client screen.

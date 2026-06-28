@@ -22,6 +22,7 @@ public class CTSBlocks {
     public static final RegistryObject<StationSpeakerBlock> STATION_SPEAKER = BLOCKS.register("station_speaker",
             () -> new StationSpeakerBlock(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_GRAY)
+                    .noOcclusion()
                     .strength(2.0F, 6.0F)
                     .sound(SoundType.WOOD)));
 
